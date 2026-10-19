@@ -1,0 +1,48 @@
+{
+ "model": "qwen3:4b",
+ "raw": "[\n  {\n    \"obligated_party\": \"Contractor\",\n    \"obligation\": \"Cycle-count all SKUs in Warehouse B\",\n    \"amount\": null,\n    \"deadline\": \"October 15, 2026\",\n    \"source_quote\": \"Contractor shall cycle-count all SKUs in Warehouse B on or before October 15, 2026, and deliver the count report to Client within two business days of completion.\"\n  },\n  {\n    \"obligated_party\": \"Contractor\",\n    \"obligation\": \"Provide a certificate of insurance to Client before work begins\",\n    \"amount\": null,\n    \"deadline\": \"before work begins\",\n    \"source_quote\": \"Contractor shall carry general liability insurance of $1,000,000 and provide a certificate of insurance to Client before work begins.\"\n  },\n  {\n    \"obligated_party\": \"Client\",\n    \"obligation\": \"Pay Contractor a flat fee of $2,500.00\",\n    \"amount\": \"2500.00\",\n    \"deadline\": \"within net 30 days of receipt of invoice\",\n    \"source_quote\": \"Client shall pay Contractor a flat fee of $2,500.00 within net 30 days of receipt of invoice.\"\n  },\n  {\n    \"obligated_party\": \"Contractor\",\n    \"obligation\": \"Reconcile all inventory variances over $500.00 with Client's finance contact\",\n    \"amount\": null,\n    \"deadline\": \"before month-end close\",\n    \"source_quote\": \"Contractor shall reconcile all inventory variances over $500.00 with Client's finance contact before month-end close.\"\n  },\n  {\n    \"obligated_party\": \"Contractor\",\n    \"obligation\": \"Not disclose Client's inventory data to any third party\",\n    \"amount\": null,\n    \"deadline\": \"during the term and for 12 months after it ends\",\n    \"source_quote\": \"Contractor shall not disclose Client's inventory data to any third party during the term and for 12 months after it ends.\"\n  },\n  {\n    \"obligated_party\": \"Either party\",\n    \"obligation\": \"Terminate this agreement with 14 days' written notice to the other party\",\n    \"amount\": null,\n    \"deadline\": \"with 14 days' written notice\",\n    \"source_quote\": \"Either party may terminate this agreement with 14 days' written notice to the other party.\"\n  }\n]",
+ "parsed": [
+  {
+   "obligated_party": "Contractor",
+   "obligation": "Cycle-count all SKUs in Warehouse B",
+   "amount": null,
+   "deadline": "October 15, 2026",
+   "source_quote": "Contractor shall cycle-count all SKUs in Warehouse B on or before October 15, 2026, and deliver the count report to Client within two business days of completion."
+  },
+  {
+   "obligated_party": "Contractor",
+   "obligation": "Provide a certificate of insurance to Client before work begins",
+   "amount": null,
+   "deadline": "before work begins",
+   "source_quote": "Contractor shall carry general liability insurance of $1,000,000 and provide a certificate of insurance to Client before work begins."
+  },
+  {
+   "obligated_party": "Client",
+   "obligation": "Pay Contractor a flat fee of $2,500.00",
+   "amount": "2500.00",
+   "deadline": "within net 30 days of receipt of invoice",
+   "source_quote": "Client shall pay Contractor a flat fee of $2,500.00 within net 30 days of receipt of invoice."
+  },
+  {
+   "obligated_party": "Contractor",
+   "obligation": "Reconcile all inventory variances over $500.00 with Client's finance contact",
+   "amount": null,
+   "deadline": "before month-end close",
+   "source_quote": "Contractor shall reconcile all inventory variances over $500.00 with Client's finance contact before month-end close."
+  },
+  {
+   "obligated_party": "Contractor",
+   "obligation": "Not disclose Client's inventory data to any third party",
+   "amount": null,
+   "deadline": "during the term and for 12 months after it ends",
+   "source_quote": "Contractor shall not disclose Client's inventory data to any third party during the term and for 12 months after it ends."
+  },
+  {
+   "obligated_party": "Either party",
+   "obligation": "Terminate this agreement with 14 days' written notice to the other party",
+   "amount": null,
+   "deadline": "with 14 days' written notice",
+   "source_quote": "Either party may terminate this agreement with 14 days' written notice to the other party."
+  }
+ ]
+}

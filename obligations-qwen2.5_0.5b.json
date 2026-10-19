@@ -1,0 +1,41 @@
+{
+ "model": "qwen2.5:0.5b",
+ "raw": "[{\"obligated_party\": \"Juniper Table LLC\", \"obligation\": \"cycle-count all SKUs in Warehouse B on or before October 15, 2026, and deliver the count report to Client within two business days of completion.\", \"amount\": null, \"deadline\": \"October 15, 2026\", \"source_quote\": null}, {\"obligated_party\": \"Cove Supply Co.\", \"obligation\": \"carry general liability insurance of $1,000,000 and provide a certificate of insurance to Client before work begins.\", \"amount\": null, \"deadline\": null, \"source_quote\": null}, {\"obligated_party\": \"Client\", \"obligation\": \"pay Contractor a flat fee of $2,500.00 within net 30 days of receipt of invoice.\", \"amount\": \"2,500.00\", \"deadline\": null, \"source_quote\": null}, {\"obligated_party\": \"Client\", \"obligation\": \"reconcile all inventory variances over $500.00 with Client's finance contact before month-end close.\", \"amount\": null, \"deadline\": null, \"source_quote\": null}, {\"obligated_party\": \"Client\", \"obligation\": \"terminate this agreement with 14 days' written notice to the other party.\", \"amount\": null, \"deadline\": null, \"source_quote\": null}]",
+ "parsed": [
+  {
+   "obligated_party": "Juniper Table LLC",
+   "obligation": "cycle-count all SKUs in Warehouse B on or before October 15, 2026, and deliver the count report to Client within two business days of completion.",
+   "amount": null,
+   "deadline": "October 15, 2026",
+   "source_quote": null
+  },
+  {
+   "obligated_party": "Cove Supply Co.",
+   "obligation": "carry general liability insurance of $1,000,000 and provide a certificate of insurance to Client before work begins.",
+   "amount": null,
+   "deadline": null,
+   "source_quote": null
+  },
+  {
+   "obligated_party": "Client",
+   "obligation": "pay Contractor a flat fee of $2,500.00 within net 30 days of receipt of invoice.",
+   "amount": "2,500.00",
+   "deadline": null,
+   "source_quote": null
+  },
+  {
+   "obligated_party": "Client",
+   "obligation": "reconcile all inventory variances over $500.00 with Client's finance contact before month-end close.",
+   "amount": null,
+   "deadline": null,
+   "source_quote": null
+  },
+  {
+   "obligated_party": "Client",
+   "obligation": "terminate this agreement with 14 days' written notice to the other party.",
+   "amount": null,
+   "deadline": null,
+   "source_quote": null
+  }
+ ]
+}
